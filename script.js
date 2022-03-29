@@ -64,7 +64,7 @@ function update(mod) {  // for physics
     }
     if (keys.s && slided < 30*mod) {
         slide = true
-        slides -= 1000*mod
+        slides -= 1500*mod
         slided += 1*mod
         if (keys.s != true){
         }
